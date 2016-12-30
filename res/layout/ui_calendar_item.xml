@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cousinalarmclock.Activity.MainActivity" >
+
+    <TextView 
+        android:layout_centerInParent="true"
+
+        android:id="@+id/ui_calendar_item_tx"
+        android:gravity="center"
+        android:layout_width="@dimen/calendar_background_size"
+        android:layout_height="@dimen/calendar_background_size"
+        android:textSize="@dimen/calendar_size"
+        android:textColor="@color/calendar_text_color_white"
+        android:text="11"/>
+</RelativeLayout>
